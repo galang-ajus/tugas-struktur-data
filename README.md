@@ -59,61 +59,22 @@ Array ini kemudian digunakan untuk melakukan berbagai proses analisis nilai maha
 
 # 2 Proses Analisis Data
 
-Setelah data nilai berhasil dikumpulkan, program melakukan beberapa proses analisis.
+![](https://github.com/galang-ajus/tugas-struktur-data/blob/main/Foto/Cuplikan%20layar%202026-03-14%20115636.jpg?raw=true)
 
-### Menentukan Nilai Tertinggi
+ini adalah output dari tambah nilai
 
-Program menggunakan fungsi bawaan Python untuk mencari nilai terbesar dalam array.
 
-```python
-nilai_tertinggi = max(nilai_mahasiswa)
-```
 
-Fungsi `max()` akan memeriksa semua elemen dalam array dan mengembalikan nilai terbesar.
+![](https://github.com/galang-ajus/tugas-struktur-data/blob/main/Foto/Cuplikan%20layar%202026-03-14%20115724.jpg?raw=true)
 
----
+ini adalah output dari grafik batang nilai
 
-### Menentukan Nilai Terendah
 
-Nilai terendah dicari menggunakan fungsi `min()`.
 
-```python
-nilai_terendah = min(nilai_mahasiswa)
-```
+![](https://github.com/galang-ajus/tugas-struktur-data/blob/main/Foto/Cuplikan%20layar%202026-03-14%20115757.jpg?raw=true)
 
-Fungsi ini akan mencari nilai terkecil dalam kumpulan data.
+ini adalah output dari grafik batang nilai kelulusan
 
----
-
-### Menghitung Rata-rata Nilai
-
-Rata-rata nilai dihitung dengan menjumlahkan seluruh nilai kemudian dibagi dengan jumlah data.
-
-```python
-rata_rata = sum(nilai_mahasiswa) / len(nilai_mahasiswa)
-```
-
-Penjelasan:
-
-* `sum()` digunakan untuk menjumlahkan seluruh nilai
-* `len()` digunakan untuk mengetahui jumlah data
-
----
-
-### Menghitung Jumlah Mahasiswa Lulus
-
-Program menggunakan perulangan untuk mengecek setiap nilai dalam array.
-
-```python
-jumlah_lulus = 0
-for n in nilai_mahasiswa:
-    if n >= 60:
-        jumlah_lulus += 1
-```
-
-Jika nilai mahasiswa lebih besar atau sama dengan 60 maka mahasiswa tersebut dianggap **lulus**.
-
----
 
 # 3 Visualisasi Grafik
 
